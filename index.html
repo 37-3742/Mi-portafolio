@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">JB</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/42160537 BARRERA JAZMIN CORAL(FOTO9.jpeg" alt="">
+            </div>
+            <h1>Jazmín Coral Barrera</h1>
+            <h2>Desarrolladora de Software</h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/jazm%C3%ADn-coral-barrera-b50463213/"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Jazmín Coral Barrera.</span> Soy estudiante de ingenieria en Sistemas y entusiasta por la programación.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            19-10-1999
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            351-6964101
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            jazmincoralbarrera@gmail.com
+                        </li>
+                    
+                        <li>
+                            <strong>Dirección</strong>
+                            Córdoba, Argentina
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Desarrollador</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-motorcycle"></i>
+                            <span>MOTOS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+
+                <a  href="../file:///C:/Users/jaz_c/OneDrive/Escritorio/Miportafolio/docs/Analista%20Funcional-Jazm%C3%ADn%20Coral%20Barrera.pdf" download>Descargar CV</a>
+                <span class="overlay"></span></span>
+                
+            </button>
+        </div>
+    </section>
+
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Universidad</h4>
+                        <span class="casa">Universidad Tecnologica Nacional - Ing Sistemas</span>
+                        <span class="fecha">2021 - actualidad</span>
+                        <p></p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Universidad</h4>
+                        <span class="casa">Universidad Nacional de Córdoba- Ing en Biomedica</span>
+                        <span class="fecha">2020 - 2021</span>
+                        <p></p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Universidad</h4>
+                        <span class="casa">Universidad Tecnologica Nacional- Ing Electronica</span>
+                        <span class="fecha">2019-2020</span>
+                        <p></p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>SECUNDARIO</h4>
+                        <span class="casa">IPEM 206- Fernando Fader</span>
+                        <span class="fecha">2011-2017</span>
+                        <p>Bachiller en Ciencias Naturales.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>CURSOS</h4>
+                        <span class="casa">ICARO- Programación Full Stack</span>
+                        <span class="fecha">13/04/2022 al 15/02/23</span>
+                        <p>Curso donde se desarrollo programación con skills : html, css, react, angular, javascript </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+
+                        <
+                        
+                    </div>
+                    <div class="item izq">
+                        <span class="casa">Programa con la Municipalidad de Córdoba-Formarse</span>
+                        <p>- Testing:creación de casos de prueba,test suite,pruebas funcionales y no funcionales,reporte de defectos e incidentes.</p>
+                        <p>- SQL</p>
+                        <p>- Programación Python</p>
+                        <p>- Soporte Tecnico</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Arcos Dorados Mc donalds</h4>
+                        <span class="fecha">Abril 3 de 2016 - 20 de noviembre 2022</span>
+                        <p>•Coordinación de equipos de más de 10 personas.</p>
+                        <p>•Planeaciónn para la capacitación de empleados.</p>
+                        <p>•Coordinación de tareas a desempeñar durante los turnos.</p>
+                        <p>•Reportar sobre el avance de los procesos de capacitación.</p>
+                        <p>•Reportar objetivos alcanzados y no alcanzados.</p>
+                        <p>•Creación de plan de acción para el logro de objetivos.</p>
+                        <p>•Atención al cliente.</p>
+                        <p>•Resolución de consultas e inconvenientes informadas tanto por los clientes como empleados.</p>
+                        <p>•Armado  y entrega de pedidos.</p>
+                        <p>•Mantenimiento de equipos.</p>        
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4> Retención y fidelización de Claro.</h4>
+                        <span class="casa">STARTEKS</span>
+                        <span class="fecha">9/11/21 - 25/04/23</span>
+                        <p>•Recepción de llamadas.</p>
+                        <p>•Tratamiento de reclamos y consultas</p>
+                        <p>•Escucha activa para lograr la resolución de inconvenientes de los clientes, logrando que el mismo se mantenga en la empresa y confiando nuevamente en ella</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Atención al Cliente</h4>
+                        <span class="casa">Telemercado- Cuentas e inverciónes(Banco de Córdoba)</span>
+                        <span class="fecha">9/01/23 - actualidad</span>
+                        <p>•Recepción de consultas</p>
+                        <p>•Resolución de consultas de Cuentas e inversiones</p>
+                        <p>•Recepcion de reclamos y solicitudes por parte de los clientes</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.jpg" alt="">
+                    
+                    <div class="overlay">
+                        <a href="../Tienda-Coral/Inicio/index.html">Tienda de Ropa<i class=""></i></a>
+                        <p>...</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/jazm%C3%ADn-coral-barrera-b50463213/"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
